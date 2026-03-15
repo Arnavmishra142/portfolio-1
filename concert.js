@@ -24,7 +24,7 @@ const currTimeEl = document.getElementById('curr-time');
 const totalTimeEl = document.getElementById('total-time');
 
 // API Details
-const API_BASE = "https://saavn.dev/api/search/songs?query=";
+const API_BASE = "https://jiosaavn-api-privatecvc2.vercel.app/search/songs?query=";
 
 // --- INITIAL LOAD ---
 async function loadTrending() {
